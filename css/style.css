@@ -1,0 +1,71 @@
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.in {
+  background-color: #f8f8f8;
+  border: 1px solid darkgray;
+  padding-left: 1%;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.btns {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  color: white;
+  height: 35px;
+  border-radius: 2px;
+}
+
+a:hover {
+  color: white;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.inputs {
+  background-color: #d8cfcf;
+  height: 40px;
+  border: 1px solid #d8cfcf;
+}
+
+#table2 {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@import 'parciyal/parcisal';
+@include center;
+.in{
+    background-color: $inp;
+    border: 1px solid $darkgray;
+    padding-left: 1%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+.btns{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    width: 100%;
+    background-color: $green;
+    text-align: center;
+    color: $white;
+    height: 35px;
+    border-radius: 2px;
+    &:hover{
+        color: $white;
+    }
+}
+@include center;
+.inputs{
+    background-color: $inpb;
+    height: 40px;
+    border:1px solid $int;
+}
+#table2{
+    display: none;
+}

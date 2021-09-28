@@ -1,8 +1,5 @@
-{
-  "require": {
-    "php": "^7.2.0"
-  },
-  "autoload": {
-        "psr-4": {"Acme\\": "src/"}
-    }
-}
+require __DIR__ . '/vendor/autoload.php';
+
+$log = new Monolog\Logger('name');
+$log->pushHandler(new Monolog\Handler\StreamHandler('app.log', Monolog\Logger::WARNING));
+$log->warning('Foo');
